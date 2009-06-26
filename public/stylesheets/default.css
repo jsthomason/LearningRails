@@ -1,0 +1,55 @@
+* { 
+    font-family:Sans-Serif; 
+    font-size:10pt; 
+    margin:0px;
+    color:#000;
+}
+
+body {
+    background-color:#000;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight:bold;
+    margin:.5em 0em .5em 0em;
+}
+
+h1 { font-size:200%; }
+h2 { font-size:175%; }
+h3 { font-size:150%; }
+h4 { font-size:125%; }
+h5 { font-size:100%; }
+
+#wrapper {
+    background-color:#FFF;
+}
+
+#header, #footer { 
+    height:65px; 
+}
+
+#header {
+    margin:0em 0em 1em 0em;
+    background-image:url('/images/RedTube2.png');
+}
+
+#footer {
+    text-align:center;
+    font-weight:400;
+    color:#AAA;
+    margin:1em 0em 0em 0em;
+    background-image:url('/images/RedTube.png');
+}
+
+#content {
+    margin-left:1em;
+}
+
+.field_label {
+    font-weight:bold;
+}
+
+.field {
+    margin-left:0.5em;
+}
+

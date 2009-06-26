@@ -1,9 +1,10 @@
-<html>
-  <head>
-    <title><%controller.action_name%></title>
-  </head>
-  <body>
-    <h2>User Data</h2>
-    <p>Name: </p>
-  </body>
-</html>
+<% if @user_data != nil %>
+	<h2>User Data</h2>
+	<div>
+	    <span class="field_label">Name:</span>
+	    <span class="field"><%= @user_data.fname + " " + @user_data.lname %></span>
+	    <br />
+	    <span class="field_label">Email:</span>
+	    <span class="field"><%= @user_data.email %></span>
+	</div>
+<% end %>
